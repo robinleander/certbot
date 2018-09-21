@@ -45,6 +45,7 @@ pyasn1==0.1.9
 pyasn1-modules==0.0.10
 Pygments==2.2.0
 pylint==1.4.2
+PyNamecheap==0.0.3
 pytest==3.2.5
 pytest-cov==2.5.1
 pytest-forked==0.2

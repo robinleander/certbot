@@ -297,6 +297,8 @@ def cli_plugin_requests(config):  # pylint: disable=too-many-branches
         req_auth = set_configurator(req_auth, "dns-linode")
     if config.dns_luadns:
         req_auth = set_configurator(req_auth, "dns-luadns")
+    if config.dns_namecheap:
+        req_auth = set_configurator(req_auth, "dns-namecheap")
     if config.dns_nsone:
         req_auth = set_configurator(req_auth, "dns-nsone")
     if config.dns_ovh:

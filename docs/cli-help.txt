@@ -460,6 +460,8 @@ plugins:
                         using Linode for DNS). (default: False)
   --dns-luadns          Obtain certificates using a DNS TXT record (if you are
                         using LuaDNS for DNS). (default: False)
+  --dns-namecheap       Obtain certificates using a DNS TXT record (if you are
+                        using Namecheap for DNS). (default: False)
   --dns-nsone           Obtain certificates using a DNS TXT record (if you are
                         using NS1 for DNS). (default: False)
   --dns-ovh             Obtain certificates using a DNS TXT record (if you are
@@ -616,6 +618,17 @@ dns-luadns:
                         record. (default: 30)
   --dns-luadns-credentials DNS_LUADNS_CREDENTIALS
                         LuaDNS credentials INI file. (default: None)
+
+dns-namecheap:
+  Obtain certificates using a DNS TXT record (if you are using Namecheap
+  for DNS).
+
+  --dns-namecheap-propagation-seconds DNS_NAMECHEAP_PROPAGATION_SECONDS
+                        The number of seconds to wait for DNS to propagate
+                        before asking the ACME server to verify the DNS
+                        record. (default: 10)
+  --dns-namecheap-credentials DNS_NAMECHEAP_CREDENTIALS
+                        Namecheap credentials INI file. (default: None)
 
 dns-nsone:
   Obtain certificates using a DNS TXT record (if you are using NS1 for DNS).

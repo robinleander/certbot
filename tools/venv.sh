@@ -23,6 +23,7 @@ fi
   -e certbot-dns-google \
   -e certbot-dns-linode \
   -e certbot-dns-luadns \
+  -e certbot-dns-namecheap \
   -e certbot-dns-nsone \
   -e certbot-dns-ovh \
   -e certbot-dns-rfc2136 \
